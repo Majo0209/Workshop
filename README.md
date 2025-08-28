@@ -24,7 +24,8 @@ workshop/
 ├─ KPI's.py              # KPI calculations from the database
 ├─ data/                 # Folder with candidates CSV (provided by professor)
 ├─ EDA/                  # EDA notebooks and exploratory analysis
-├─ docs/                 # Images of dashboard or visual results
+├─ KPI's interpretation/ # Images of dashboard or visual results and interpretation
+├─ Start schema/         # Interpretation start schema
 └─ README.md             # This file
 
 ```
