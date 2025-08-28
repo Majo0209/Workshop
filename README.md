@@ -126,7 +126,7 @@ Before the ETL load, an EDA was performed with Pandas:
 
 ##  Power BI
 
-[Power BI Dashboard](https://uao-my.sharepoint.com/:u:/g/personal/maria_jos_suarez_uao_edu_co/EWjBXGS1MlFImz6IoJJIfPsBObXkHjX9Cn6tl8s9AYCGbA?e=35WfRd)
+[Power BI Dashboard]([https://uao-my.sharepoint.com/:u:/g/personal/maria_jos_suarez_uao_edu_co/EWjBXGS1MlFImz6IoJJIfPsBObXkHjX9Cn6tl8s9AYCGbA?e=35WfRd](https://app.powerbi.com/groups/me/reports/055692b6-54ba-4947-92ab-371bab27cd2e/292ca962e3a53bc00dab?experience=power-bi))
 
 ---
 
