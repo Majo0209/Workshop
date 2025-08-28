@@ -24,6 +24,8 @@ workshop/
 ├─ KPI's.py              # KPI calculations from the database
 ├─ data/                 # Folder with candidates CSV (provided by professor)
 ├─ EDA/                  # EDA notebooks and exploratory analysis
+├─ docs/                 # Images of dashboard or visual results
+└─ README.md             # This file
 
 ```
 
@@ -143,6 +145,9 @@ After running the full workflow:
 * An interactive dashboard can be built in Power BI or reports generated directly from Python.
 
 ---
+
+
+## 
 
 ##  References
 
