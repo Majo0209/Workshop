@@ -47,7 +47,38 @@ The diagram shows the workflow from the **data source** to the **final visualiza
 
 ---
 
+## Dimensional Model of Hires: Star Schema
+---
+<img width="917" height="738" alt="image" src="https://github.com/user-attachments/assets/0456c067-c457-4a37-8daa-071887cb3074" />
 
+This project uses a **Star Schema** to structure the Data Warehouse, separating metrics (fact table) from descriptive attributes (dimensions). This design enables **efficient queries, KPI generation, and scalability**.
+
+### 🔹 Fact Table: `fact_hires`
+
+* **PK:** `hire_id`
+* **FKs:** candidate\_id, date\_id, country\_id, technology\_id, seniority\_id
+* **Metrics:**
+
+  * `hired` (1 if scores ≥ 7 in both tests)
+  * `code_challenge_score`, `technical_interview_score`
+
+### 🔹 Dimensions
+
+* **dim\_candidate:** candidate details (name, email, years\_of\_experience)
+* **dim\_date:** time attributes (year, month, day)
+* **dim\_technology:** technology area (Python, DevOps, etc.)
+* **dim\_seniority:** level (Intern → Architect)
+* **dim\_country:** country of candidate
+
+### 📊 KPIs Generated
+
+* Hires by **technology, country, seniority, year, and experience**
+* Average scores by seniority level
+* Hiring trends over time
+
+This schema ensures **data consistency, analytical flexibility, and performance**, supporting dashboards and decision-making.
+
+---
 
 ##  Project Structure
 
