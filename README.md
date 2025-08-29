@@ -13,6 +13,42 @@ The full workflow includes:
 
 ---
 
+## Schema
+
+<img width="858" height="394" alt="image" src="https://github.com/user-attachments/assets/05cedc57-14a1-4b96-b54f-0bb94f194b9e" />
+---
+
+The diagram shows the workflow from the **data source** to the **final visualization**:
+
+1. **Data Source (.CSV)**
+
+   * I started with CSV files containing candidate information.
+   * Before integrating them, I performed an **EDA (Exploratory Data Analysis)** to understand the structure and quality of the dataset.
+
+2. **Extract (E)**
+
+   * I used **Python (pandas)** to **extract** the data from the CSV files.
+   * At this stage, I identified issues such as missing values and incorrect data types.
+
+3. **Transform (T)**
+
+   * Using Python, I applied the required **transformations**: data cleaning, column normalization, and format adjustments.
+   * The goal was to prepare the data so it could be properly loaded into the database.
+
+4. **Load (L)**
+
+   * The transformed data was **loaded into MySQL**, where I designed and implemented a **Data Warehouse** following a star schema.
+   * This structure allowed optimized queries and easier reporting.
+
+5. **Visualization & GitHub**
+
+   * Once the data was in the warehouse, I created **KPIs and visualizations** to answer key business questions.
+   * Finally, I documented everything and uploaded the project to **GitHub**, ensuring version control and accessibility.
+
+---
+
+
+
 ##  Project Structure
 
 ```
