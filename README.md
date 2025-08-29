@@ -195,6 +195,7 @@ Before the ETL load, an EDA was performed with Pandas:
 
 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDExZjU5MDktNTUyYy00YzdiLWE5MWYtZWExMmQ2ZjYxMjk2IiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9)
 
+- [Here you can see the interpretation of each KPI.](https://github.com/Majo0209/Workshop/blob/8b67cc1908d8093a1d5996e77ecd531a305407fd/KPI's%20interpretation.pdf)
 ---
 
 ##  Additional Notes
